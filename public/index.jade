@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(lang='en')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='Lorem ipsum based on 500 Days of Summer')
+    meta(name='author', content='Juan Bedón')
+    link(rel='icon', href='images/favicon.png')
+    title 500 Ipsum
+    link(href='https://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', integrity='sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB', crossorigin='anonymous')
+  body
+    .container
+      .row
+        h1.title 500 Days of Ipsum
+      p.description A simple lorem ipsum generator
+      form(action='/', method='POST')
+        input.paragraph-number(type='number', name='numberOfParagraphs')
+        input.generate-button(type='submit', value='Generate')
+      .generated-text
+        .placeholder-div
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', integrity='sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T', crossorigin='anonymous')

@@ -1,0 +1,42 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(rgba(92, 195, 255, 1), rgba(252, 255, 92, 1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title{
+	color: #F1ECE9;
+	text-align: center;
+	padding: 150px;
+	background-image: url("../images/logo-ipsum.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.description {
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.quotes {
+	background-color: rgba(48, 48, 48, 0.31);
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.phone {
+	text-align: center;
+	padding: 10px;
+	margin-top: 30px;
+}
